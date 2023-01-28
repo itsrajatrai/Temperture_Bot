@@ -1,7 +1,7 @@
-import telegram.ext
+import telegram
 
 Token = "5921585208:AAHrDdBlDv_S7Q-aRwv9UMYz1cxubqU4OO8"
-updater = telegram.ext.updater("5921585208:AAHrDdBlDv_S7Q-aRwv9UMYz1cxubqU4OO8", use_context=True)
+updater = telegram.updater("5921585208:AAHrDdBlDv_S7Q-aRwv9UMYz1cxubqU4OO8", use_context=True)
 dispatcher = updater.dispatcher
 
 def get_temperature():
